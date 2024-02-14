@@ -28,7 +28,7 @@ check_vpn_status() {
 
 # Function to check routing table for VPN
 check_routing_table() {
-    echo "Checking Routing Table for VPN..."
+    echo "Checking Routing Table 200 for VPN..."
     ip route show table 220
     echo "Routing Table Check Completed."
 }
