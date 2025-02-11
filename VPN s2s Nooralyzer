@@ -36,7 +36,7 @@ check_routing_table() {
 # Function to display VPN handshake logs
 vpn_handshake_logs() {
     echo "Displaying VPN Handshake Logs..."
-    logread -f | grep -v "cron\|udshape\|dnsmasq\|hostapd"
+    logread | grep -v "cron\|udshape\|dnsmasq\|hostapd"
 }
 
 # Main function
